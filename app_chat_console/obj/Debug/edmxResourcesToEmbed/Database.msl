@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="app_chat_consoleModelStoreContainer" CdmEntityContainer="app_chat_consoleEntities">
+    <EntitySetMapping Name="channels">
+      <EntityTypeMapping TypeName="app_chat_consoleModel.channel">
+        <MappingFragment StoreEntitySet="channel">
+          <ScalarProperty Name="channel_name" ColumnName="channel_name" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="total_user" ColumnName="total_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="messes">
+      <EntityTypeMapping TypeName="app_chat_consoleModel.mess">
+        <MappingFragment StoreEntitySet="mess">
+          <ScalarProperty Name="id_mess" ColumnName="id_mess" />
+          <ScalarProperty Name="channel_name" ColumnName="channel_name" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="content" ColumnName="content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

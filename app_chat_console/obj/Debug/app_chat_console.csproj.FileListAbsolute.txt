@@ -1,0 +1,26 @@
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\app_chat_console.exe.config
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\app_chat_console.exe
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\app_chat_console.pdb
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\EntityFramework.dll
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\EntityFramework.xml
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\obj\Debug\app_chat_console.csprojResolveAssemblyReference.cache
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\obj\Debug\app_chat_console.exe
+c:\users\dangn\documents\visual studio 2015\Projects\app_chat_console\app_chat_console\obj\Debug\app_chat_console.pdb
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\app_chat_console.exe.config
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\app_chat_console.exe
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\app_chat_console.pdb
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\EntityFramework.dll
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\EntityFramework.xml
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.csprojResolveAssemblyReference.cache
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.csproj.CoreCompileInputs.cache
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.csproj.CopyComplete
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.exe
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.pdb
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\app_chat_console.exe.manifest
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\bin\Debug\app_chat_console.application
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.exe.manifest
+C:\Users\dangnh2002\Desktop\app_chat_console\app_chat_console\obj\Debug\app_chat_console.application

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="app_chat_consoleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="channel">
+    <Key>
+      <PropertyRef Name="channel_name" />
+    </Key>
+    <Property Name="channel_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="pass" Type="varchar" MaxLength="20" />
+    <Property Name="total_user" Type="int" />
+  </EntityType>
+  <EntityType Name="mess">
+    <Key>
+      <PropertyRef Name="id_mess" />
+    </Key>
+    <Property Name="id_mess" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="channel_name" Type="varchar" MaxLength="50" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+    <Property Name="content" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__mess__channel_na__1273C1CD">
+    <End Role="channel" Type="Self.channel" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="mess" Type="Self.mess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="channel">
+        <PropertyRef Name="channel_name" />
+      </Principal>
+      <Dependent Role="mess">
+        <PropertyRef Name="channel_name" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="app_chat_consoleModelStoreContainer">
+    <EntitySet Name="channel" EntityType="Self.channel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mess" EntityType="Self.mess" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__mess__channel_na__1273C1CD" Association="Self.FK__mess__channel_na__1273C1CD">
+      <End Role="channel" EntitySet="channel" />
+      <End Role="mess" EntitySet="mess" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

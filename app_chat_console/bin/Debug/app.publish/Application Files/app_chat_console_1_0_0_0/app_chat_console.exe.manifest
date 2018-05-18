@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="app_chat_console.exe" version="1.0.0.0" publicKeyToken="5f1dbf51a434a81c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="app_chat_console" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="app_chat_console.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="app_chat_console.exe" size="20432">
+      <assemblyIdentity name="app_chat_console" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lbpDETWcvkhdMUB0oqW7TdpN7JxDb3tHri0U6lAiVEE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5196496">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7W69dJBS+QGPZplnGuVGmt7fCGz4sb1CVrvpxOf2/wU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="621264">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ob9snjgg6D9D6fIN19mwozYqkxRvCv4LEzAYXi1RsMs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="app_chat_console.exe.config" size="1471">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nqNJzH+dh7wUCYAJvbEGAzfAnzWq7gP7QJkLr6hcRtQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Model1.Context.tt" size="22930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iH6jRm/ArXOO/wVogKb8ZOaRJ6DvCC6vOswudwQkDnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Model1.tt" size="25275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CabSpKm6yYNT6twBZzKHKM3v3aBYMgNzK0uSDYpHoWw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TECA-PC\dangnh2002" issuerKeyHash="216168fd287b464595c53e862b83e8a2eed624eb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q3Soz2eAAnOtvILH+AsfGqmU3q5fW0tQK2lPml5YEGU=</DigestValue></Reference></SignedInfo><SignatureValue>VNEKmfurbXXRHODgi+/JCIebLTQa6hK5RE0JPK4EpCxGZgFWg/XoO33oS6hKtv5DAlZr87Xvtx75dyJ0YipFKyHGKA2s8+LrkT4yGH6OnBt8D0G2ubnpI7H//wdAXAFd6ddZu9RR82XwBMkV5swFv7Evy5GV5WN57EkQfXK68fI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4U06Imckn56rDEMjqv8Qz9y/uekJGfv7djvMdSbJysQjo8hfwdUcSN1cuH/Hii/935S5cVQfDRjvLlalumNlGz79A+5R/S9jYlVSjWtkbZBXwp/gsGFp9NwSYW9MoFoLQ22IVGqiDscOj8Zs68R0Ah/3GfBOfP1TAsRB3RkIqP0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6510585e9a4f692b504b5b5faede94a91a1f0bf8c782bcad73028067cfa874ab" Description="" Url=""><as:assemblyIdentity name="app_chat_console.exe" version="1.0.0.0" publicKeyToken="5f1dbf51a434a81c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TECA-PC\dangnh2002</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fTfzL/x9Rmgi2m1bnYygre2gEUHXZVxSFIwrblci7TE=</DigestValue></Reference></SignedInfo><SignatureValue>gblHCfS/BLaEJVVnSvOhMj0gvXYeWQW5wncA2Tvti9duF/YWgSTEQZM8X4D42d7d+7d4XzkEikYDuPfgoGp+T+4wjPrRVK/C92NdAyW3Uvz0p4+3QcK1yzl4LUBWbZDksoe41ACnPm4XkbIB+TMIZGuqArKB7AV1FvrX/+8C0zM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4U06Imckn56rDEMjqv8Qz9y/uekJGfv7djvMdSbJysQjo8hfwdUcSN1cuH/Hii/935S5cVQfDRjvLlalumNlGz79A+5R/S9jYlVSjWtkbZBXwp/gsGFp9NwSYW9MoFoLQ22IVGqiDscOj8Zs68R0Ah/3GfBOfP1TAsRB3RkIqP0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQWrajbg+VQ4pPDAOYg9KqnDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAVABFAEMAQQAtAFAAQwBcAGQAYQBuAGcAbgBoADIAMAAwADIwHhcNMTgwNTE4MDQwNzQzWhcNMTkwNTE4MTAwNzQzWjAvMS0wKwYDVQQDHiQAVABFAEMAQQAtAFAAQwBcAGQAYQBuAGcAbgBoADIAMAAwADIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOFNOiJnJJ+eqwxDI6r/EM/cv7npCRn7+3Y7zHUmycrEI6PIX8HVHEjdXLh/x4ov/d+UuXFUHw0Y7y5WpbpjZRs+/QPuUf0vY2JVUo1rZG2QV8Kf4LBhafTcEmFvTKBaC0NtiFRqog7HDo/GbOvEdAIf9xnwTnz9UwLEQd0ZCKj9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAySBs18Dwg2OkkAt61ZYz6Bug+ispqXYKYdNL2qdcLAkTsItW7YF1UEqToyFnov/froa76vqfKFe00KHi6QOz+pbAS+V95LScqumoayNFAA+WquVITP5mSmy8hiRlduJV72LUknebOOrW1rB5bXgd6y2gHk3COcbPQkvj+Zmh6qw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
